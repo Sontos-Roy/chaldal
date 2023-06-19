@@ -1,6 +1,6 @@
 .main-wrapper{
     padding-top: 85px;
-    padding-bottom: 65px;
+    /* padding-bottom: 65px; */
     -webkit-transition: all .2s;
     -moz-transition: all .2s;
     -o-transition: all .2s;
@@ -227,6 +227,9 @@ body.navOpen .main-wrapper{
 .slideContents {
     display: flex;
     align-items: center;
+}
+.userRecommendation {
+    padding: 20px;
 }
 .userRecommendation .profile {
     text-align: center;

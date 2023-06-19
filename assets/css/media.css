@@ -70,14 +70,53 @@
         margin-bottom: 0;
       }
       .landingPage2 section.map {
-        height: 600px;
-    }
-    #chaldalApps .chaldalAppsContent {
-      width: 100%;
-      padding-right: 0;
-      margin: 0 auto 30px;
-      max-width: 450px;
-  }
+        height: 700px;
+      }
+      #chaldalApps .chaldalAppsContent {
+        width: 100%;
+        padding-right: 0;
+        margin: 0 auto 30px;
+        max-width: 450px;
+      }
+      #chaldalApps .chaldalAppPreview {
+        margin: auto;
+        max-width: 70%;
+      }
+      .landingPage2 #love-chaldal .mainTile .tile {
+        display: block;
+        margin: auto;
+        max-width: 500px;
+        width: 100%;
+      }
+      .landingPage2 #map .wrap .mapImage {
+        width: 100%;
+        text-align: center;
+      }
+      .landingPage2 #map .wrap .infoText {
+        width: 100%;
+        text-align: center;
+        margin: 0 0 25px;
+      }
+      #footer .footer-banner .banner .left-area ul li {
+        display: block;
+      }
+      #footer .footer-left {
+        text-align: center;
+      }
+      #footer .footer-left .footerBottom .list-type {
+        width: 100%;
+        margin-bottom: 30px;
+      }
+      #footer .footer-left .footerBottom .list-type {
+        width: 100%;
+        margin-bottom: 30px;
+      }
+      #footer .footer-left .footerBottom .list-type p {
+        width: 100%;
+      }
+      #footer .footer-left .footerBottom .list-type ul li {
+        text-align: center;
+      }
   }
    
   /* Small devices (landscape phones, 576px and up)*/
@@ -141,7 +180,36 @@
       padding-right: 0;
       margin: 0 auto 30px;
       max-width: 450px;
-  }
+    }
+    #chaldalApps .chaldalAppPreview {
+      margin: auto;
+      max-width: 50%;
+    }
+    .landingPage2 #love-chaldal .mainTile .tile {
+      display: block;
+      margin: auto;
+      max-width: 500px;
+      width: 100%;
+    }
+    .landingPage2 section.map {
+      height: 370px;
+    }
+    #footer .footer-banner .banner .left-area ul li {
+      display: block;
+    }
+    #footer .footer-left {
+      text-align: center;
+    }
+    #footer .footer-left .footerBottom .list-type {
+      width: 100%;
+      margin-bottom: 30px;
+    }
+    #footer .footer-left .footerBottom .list-type p {
+      width: 100%;
+    }
+    #footer .footer-left .footerBottom .list-type ul li {
+    text-align: center;
+    }
   }
   
   /* Medium devices (tablets, 768px and up)*/
@@ -156,6 +224,9 @@
       min-height: 100%;
       background-color: rgba(255,255,255,.5);
       padding: 10px 3px 0;
+    }
+    .landingPage2 section.map {
+      height: 370px;
     }
     
   }
@@ -236,7 +307,70 @@
     .landingPage2 #map .wrap .infoText .section .info {
       font-size: 30px;
     }
-    
+    .userRecommendation .commentsAndRating, .userRecommendation .profile {
+      width: 100%;
+    }
+    .slideContents {
+      flex-wrap: wrap;
+    }
+    .userRecommendation .commentsAndRating .comments:before {
+        top: 0;
+        left: calc(50% - 8px);
+        border-bottom: 8px solid #eee;
+        border-right: 8px solid transparent;
+        border-left: 8px solid transparent;
+    }
+    .landingPage2 #map .wrap .infoText .section .title {
+      font-size: 25px;
+    }
+    .landingPage2 #map .wrap .infoText .section .info {
+      font-size: 30px;
+    }
+    #footer .footer-banner .banner {
+      height: initial;
+      width: 100%;
+    }
+    #footer .footer-banner .banner .left-area {
+      width: 100%;
+      text-align: center;
+    }
+    #footer .footer-banner .banner .left-area {
+      width: 100%;
+      text-align: center;
+    }
+    #footer {
+      text-align: center;
+    }
+    #footer .footer-banner .banner .right-area {
+      width: 100%;
+      text-align: center;
+    }
+    #footer .footer-left {
+      width: 100%;
+      border-right: none;
+      float: none;
+    }
+    #footer .footer-right {
+      width: 100%;
+      border-left: none;
+      float: none;
+    }
+    #footer .footer-right .app-download-section .wrap {
+      float: none;
+      margin: auto;
+    }
+    #footer .footer-right .contact-section .phone-number .wrap {
+      float: none;
+      text-align: center;
+    }
+    #footer .footer-right .contact-section .phone-number .wrap {
+      float: none;
+      text-align: center;
+    }
+    #footer .footer-right .social-section ul {
+      float: none;
+      text-align: center;
+    }
   }
   /* Large devices (desktops, 992px and up)*/
   @media (min-width: 992px) {

@@ -256,3 +256,204 @@ body ::-webkit-scrollbar-track, html ::-webkit-scrollbar-track {
 .landingPage2 section{
     margin-bottom: 40px;
 }
+
+#footer {
+    margin: auto;
+    padding: 0 0 35px!important;
+    height: 100%;
+    font-size: 15px;
+    background-color: #f7f7f7;
+    display: block;
+}
+#footer .footer-banner {
+    margin-bottom: 0!important;
+    width: 100%;
+    color: #606060;
+    background: #f2f2f2;
+}
+#footer .footer-banner .banner {
+    width: 100%;
+    float: left;
+    padding: 5px 20px;
+}
+#footer .footer-banner .banner .left-area {
+    width: 55%;
+    float: left;
+}
+#footer .footer-banner .banner .left-area ul {
+    list-style-type: none;
+}
+#footer .footer-banner .banner .left-area ul li {
+    margin-right: 10px;
+    display: inline;
+}
+#footer .footer-banner .banner .left-area ul li .icon img {
+    vertical-align: middle;
+    width: 40px;
+    height: 40px;
+}
+#footer .footer-banner .banner .left-area ul li .text {
+    font-size: 15px;
+}
+#footer:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+#footer .footer-banner:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+#footer .footer-banner .banner .right-area {
+    float: right;
+}
+#footer .footer-banner .banner .right-area ul {
+    list-style-type: none;
+}
+#footer .footer-banner .banner .right-area ul li {
+    display: inline;
+}
+#footer .footer-banner .banner .right-area ul li.text {
+    font-size: 15px;
+    margin-right: 5px;
+}
+#footer .footer-banner .banner .right-area ul li {
+    display: inline;
+}
+#footer .footer-banner .banner .right-area ul li.icon img {
+    width: 40px;
+    height: 40px;
+    vertical-align: middle;
+}
+#footer .footer-left {
+    width: 70%;
+    float: left;
+    border-right: 1px solid #ececec;
+    padding-left: 20px;
+    padding-right: 10px;
+    margin-bottom: 30px;
+}
+#footer .footer-left .footerTop {
+    margin: auto auto 60px;
+    max-width: 1170px;
+}
+img.chaldal_logo {
+    width: 154px;
+    height: 50px;
+}
+#footer .footer-left .footerBottom {
+    margin: auto;
+    max-width: 1170px;
+    display: flex;
+    flex-wrap: wrap;
+}
+#footer .footer-left .footerBottom .list-type {
+    width: 33%;
+}
+#footer .footer-left .footerBottom .list-type p {
+    width: 80%;
+    font-weight: 600;
+    border-bottom: 1px solid #ededed;
+    font-size: 18px;
+    padding-bottom: 10px;
+}
+#footer .footer-left .footerBottom .list-type ul {
+    list-style: none;
+    margin-bottom: 0;
+    padding: 0;
+}
+#footer .footer-left .footerBottom .list-type ul li {
+    padding-bottom: 5px;
+    float: initial!important;
+    text-align: left;
+}
+#footer .footer-left .footerBottom .list-type ul li a {
+    text-decoration: none;
+    color: #606060;
+}
+#footer .footer-right {
+    width: 30%;
+    float: right;
+    border-left: 1px solid #f3f3f3;
+    padding-left: 10px;
+    padding-right: 20px;
+}
+#footer .footer-right .app-download-section {
+    margin-top: 20px;
+}
+#footer .footer-right .app-download-section .wrap {
+    float: right;
+    max-width: 360px;
+}
+#footer .footer-right .app-download-section:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+#footer .footer-right .app-download-section .wrap .google_play_store {
+    float: left;
+    width: 45%;
+}
+#footer .footer-right .app-download-section .wrap .google_play_store img {
+    width: 100%;
+}
+#footer .footer-right .app-download-section .wrap .app_store {
+    float: right;
+    width: 45%;
+}
+#footer .footer-right .app-download-section .wrap .app_store img {
+    width: 100%;
+}
+#footer .footer-right .contact-section {
+    margin-bottom: 20px;
+}
+#footer .footer-right .social-section {
+    margin-bottom: 20px;
+}
+#footer .footer-right .contact-section .phone-number .wrap {
+    margin-top: 20px;
+    float: right;
+}
+#footer .footer-right .contact-section .phone-number:after, #footer .footer-right .contact-section:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+#footer .footer-right .contact-section .email-address {
+    float: right;
+    font-size: 16px;
+}
+#footer .footer-right .contact-section .email-address .pre-text {
+    font-weight: 100;
+    margin-right: 5px;
+}
+#footer .footer-right .contact-section .email-address .email {
+    font-weight: 700;
+}
+#footer .footer-right .contact-section .phone-number .wrap .number {
+    font-size: 25px;
+    font-weight: 700;
+    margin-left: 13px;
+}
+#footer .footer-right .social-section ul {
+    list-style: none;
+    float: right;
+}
+#footer .footer-right .social-section:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+#footer .footer-right .social-section ul li {
+    display: inline;
+    float: initial;
+}
+#footer .footer-right .social-section ul li a {
+    text-decoration: none;
+}
+
+#footer .footer-right .social-section ul li a img {
+    width: 40px;
+    height: 40px;
+}
