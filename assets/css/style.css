@@ -256,6 +256,37 @@ body ::-webkit-scrollbar-track, html ::-webkit-scrollbar-track {
 .landingPage2 section{
     margin-bottom: 40px;
 }
+.main-wrapper{
+    padding-top: 85px;
+    /* padding-bottom: 65px; */
+    -webkit-transition: all .2s;
+    -moz-transition: all .2s;
+    -o-transition: all .2s;
+    -ms-transition: all .2s;
+    transition: all .2s;
+}
+.main-wrapper{  
+    margin-left: 220px;
+}
+body.navOpen .main-wrapper{
+    margin-left: 0;
+}
+.main-wrapper .bodyTable {
+    width: 100%;
+    height: inherit;
+}
+
+div.catalogBrowser .categoryHeader .breadcrumb li.active {
+    font-weight: 700;
+}
+.breadcrumb-item+.breadcrumb-item::before{
+    font-family: "Font Awesome 5 Free"; font-weight: 900;
+    content: "\f105";
+}
+.breadcrumb li a{
+    color: #606060;
+}
+/* Footer  */
 
 #footer {
     margin: auto;

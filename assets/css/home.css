@@ -1,22 +1,4 @@
-.main-wrapper{
-    padding-top: 85px;
-    /* padding-bottom: 65px; */
-    -webkit-transition: all .2s;
-    -moz-transition: all .2s;
-    -o-transition: all .2s;
-    -ms-transition: all .2s;
-    transition: all .2s;
-}
-.main-wrapper{
-    margin-left: 220px;
-}
-body.navOpen .main-wrapper{
-    margin-left: 0;
-}
-.main-wrapper .bodyTable {
-    width: 100%;
-    height: inherit;
-}
+
 .main-wrapper .bodyTable>div {
     height: 100%;
 }

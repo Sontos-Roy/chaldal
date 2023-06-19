@@ -8,7 +8,7 @@
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
-    z-index: 3;
+    z-index: 9;
 }
 .header-main .navbar{
     width: 100%;
@@ -518,7 +518,7 @@
 aside .menuWrapper {
     width: 220px;
     position: fixed;
-    z-index: 3;
+    z-index: 12;
     left: -285px;
     height: calc(100% - 55px);
     top: 55px;
@@ -739,6 +739,7 @@ div.topMenu.vertical ul.hasSelection li div.name a{
     height: 100vh;
     background: #5858585b;
     transition: none;
+    z-index: 8;
 }
 div.topMenu.vertical .quick-access-menu {
     height: 40px;

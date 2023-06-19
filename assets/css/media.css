@@ -117,6 +117,114 @@
       #footer .footer-left .footerBottom .list-type ul li {
         text-align: center;
       }
+      div.catalogBrowser div.loaded div.frontPageBanners {
+        display: block;
+        margin: 4px!important;
+      }
+      div.catalogBrowser div.loaded section.bodyWrapper {
+        margin: 0;
+      }
+      a.category div div.imageWrapper {
+        height: 150px;
+      }
+      a.category {
+        width: 50%;
+        margin: 0;
+        padding: 0;
+        height: 200px;
+      }
+      a.category div div.name {
+        font-size: 14px;
+      }
+      div.catalogBrowser .normalBanner {
+        max-height: 150px;
+        min-height: initial;
+      }
+      .productPane {
+        width: 90%;
+      }
+      div.product {
+        width: 23%;
+        height: 250px;
+        margin-right: 1%;
+        margin-left: 1%;
+        padding: 0;
+        margin-bottom: 35px;
+      }
+      div.product {
+        width: 48%;
+      }
+      div.product .imageWrapper {
+        width: 100%;
+        height: auto;
+      }
+      div.product .favouriteIcon svg {
+        height: 20px;
+        width: 20px;
+      }
+      div.product .imageWrapper .imageWrapperWrapper {
+        width: 100%;
+        height: 100px;
+        margin-bottom: 0;
+      }
+      div.product .imageWrapper .imageWrapperWrapper img {
+        max-width: 100%;
+        max-height: 100px;
+      }
+      div.product .imageWrapper div.discountedPriceSection div.price {
+        margin-top: 0;
+      }
+      div.product .imageWrapper .overlay.text p.addText {
+        pointer-events: none;
+        margin-top: 5px;
+        padding-top: 5px;
+        font-size: 18px;
+        width: 80%;
+      }
+      div.product .imageWrapper .btnShowDetails {
+        display: none;
+      }
+      div.product .btnShowDetailsIcon {
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 5px;
+        font-size: 25px;
+        text-decoration: none;
+      }
+      div.product .imageWrapper .btnShowDetailsIcon {
+        display: none;
+      }
+      div.product section.addButtonWrapper .buyText {
+        font-size: 15px;
+        height: 28px!important;
+      }
+      .deliveryStep .deliveryStepContent {
+        padding: 5px;
+      }
+      .deliveryStep .deliveryStepContent .addressComponent {
+        padding-left: 0;
+      }
+      .deliveryStep .deliveryStepContent .addressComponent .theSelectedAddress {
+        padding: 10px;
+      }
+      .deliveryStep .deliveryStepContent .addressComponent .theSelectedAddress .wholeAddress {
+        margin-left: 0;
+      }
+      .checkoutExperience2 .checkoutDelivery .placeOrderFooter {
+        margin: 0;
+        padding: 0;
+      }
+      .checkoutExperience2 .checkoutDelivery .placeOrderFooter .paymentMethodInstruction {
+        text-align: center;
+      }
+      .checkoutExperience2 .checkoutDelivery .placeOrderFooter .confirmBtnContainer {
+        text-align: center;
+        margin-left: 0;
+      }
+      .checkoutExperience2 .checkoutDelivery .confirmOrder {
+        margin: 0;
+      }
   }
    
   /* Small devices (landscape phones, 576px and up)*/
@@ -210,6 +318,85 @@
     #footer .footer-left .footerBottom .list-type ul li {
     text-align: center;
     }
+    div.catalogBrowser div.loaded div.frontPageBanners {
+      display: block;
+      margin: 4px!important;
+    }
+    div.catalogBrowser div.loaded section.bodyWrapper {
+      margin: 0;
+    }
+    .productPane {
+      width: 90%;
+    }
+    div.product {
+      width: 23%;
+      height: 250px;
+      margin-right: 1%;
+      margin-left: 1%;
+      padding: 0;
+      margin-bottom: 35px;
+    }
+    div.product {
+      width: 30%;
+    }
+    div.product .imageWrapper {
+      width: 100%;
+      height: auto;
+    }
+    div.product .favouriteIcon svg {
+      height: 20px;
+      width: 20px;
+    }
+    div.product .imageWrapper .imageWrapperWrapper {
+      width: 100%;
+      height: 100px;
+      margin-bottom: 0;
+    }
+    div.product .imageWrapper .imageWrapperWrapper img {
+      max-width: 100%;
+      max-height: 100px;
+    }
+    div.product .imageWrapper div.discountedPriceSection div.price {
+      margin-top: 0;
+    }
+    div.product .imageWrapper .overlay.text p.addText {
+      pointer-events: none;
+      margin-top: 5px;
+      padding-top: 5px;
+      font-size: 18px;
+      width: 80%;
+    }
+    div.product .imageWrapper .btnShowDetails {
+      display: none;
+    }
+    div.product .btnShowDetailsIcon {
+      display: block;
+      position: absolute;
+      top: 0;
+      left: 5px;
+      font-size: 25px;
+      text-decoration: none;
+    }
+    div.product .imageWrapper .btnShowDetailsIcon {
+      display: none;
+    }
+    div.product section.addButtonWrapper .buyText {
+      font-size: 15px;
+      height: 28px!important;
+    }
+    .deliveryStep .deliveryStepContent {
+      padding: 5px;
+    }
+    .deliveryStep .deliveryStepContent .addressComponent {
+      margin-top: 0;
+      padding-left: 10px;
+    }
+    .deliveryStep .deliveryStepContent .addressComponent .theSelectedAddress {
+      padding: 10px;
+    }
+    .checkoutExperience2 .checkoutDelivery .placeOrderFooter .paymentMethodInstruction {
+      text-align: right;
+    }
   }
   
   /* Medium devices (tablets, 768px and up)*/
@@ -227,6 +414,9 @@
     }
     .landingPage2 section.map {
       height: 370px;
+    }
+    div.catalogBrowser div.loaded section.bodyWrapper {
+      margin: 0 10px 40px!important;
     }
     
   }
@@ -371,6 +561,16 @@
       float: none;
       text-align: center;
     }
+    .categoryTopBanner .fade-carousel-container {
+      max-width: 100%;
+    }
+    .deliveryStep .deliveryStepContent .addressComponent .theSelectedAddress .wholeAddress {
+      width: 70%;
+      float: none;
+    }
+    .checkoutExperience2 .checkoutDelivery .placeOrderFooter .confirmBtnContainer {
+      margin-right: 5px;
+    }
   }
   /* Large devices (desktops, 992px and up)*/
   @media (min-width: 992px) {
@@ -388,6 +588,9 @@
     }
     .main-wrapper{
       padding-top: 55px;
+    }
+    div.catalogBrowser div.loaded section.bodyWrapper {
+      margin: 0 10px 40px!important;
     }
 
   }
